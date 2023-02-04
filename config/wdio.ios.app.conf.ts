@@ -26,7 +26,7 @@ config.capabilities = [
         // The path to the app
         "appium:app": join(
             process.cwd(),
-            "./apps/iOS-Simulator-NativeDemoApp-0.4.0.app.zip"
+            "/apps/iOS-Simulator-NativeDemoApp-0.4.0.app.zip"
         ),
         "appium:newCommandTimeout": 240,
     },

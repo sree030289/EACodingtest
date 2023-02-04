@@ -1,9 +1,14 @@
+import browser from 'webdriverio/build/commands/browser';
+import allure from '@wdio/allure-reporter';
+import HomeScreen from '../tests/screenobjects/HomeScreen';
 /**
  * All not needed configurations, for this boilerplate, are removed.
  * If you want to know which configuration options you have then you can
  * check https://webdriver.io/docs/configurationfile
  */
 export const config: WebdriverIO.Config = {
+  
+   
     //
     // ====================
     // Runner Configuration
@@ -16,9 +21,7 @@ export const config: WebdriverIO.Config = {
     // Specify Test Files
     // ==================
     // The test-files are specified in:
-    // - wdio.android.browser.conf.ts
     // - wdio.android.app.conf.ts
-    // - wdio.ios.browser.conf.ts
     // - wdio.ios.app.conf.ts
     //
     /**
@@ -30,9 +33,7 @@ export const config: WebdriverIO.Config = {
     // Capabilities
     // ============
     // The capabilities are specified in:
-    // - wdio.android.browser.conf.ts
     // - wdio.android.app.conf.ts
-    // - wdio.ios.browser.conf.ts
     // - wdio.ios.app.conf.ts
     //
     /**
@@ -46,11 +47,10 @@ export const config: WebdriverIO.Config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: "debug",
+    logLevel: "error",
     // Set specific log levels per logger
     // loggers:
     // - webdriver, webdriverio
-    // - @wdio/applitools-service, @wdio/browserstack-service, @wdio/devtools-service, @wdio/sauce-service
     // - @wdio/mocha-framework, @wdio/jasmine-framework
     // - @wdio/local-runner
     // - @wdio/sumologic-reporter
@@ -68,7 +68,7 @@ export const config: WebdriverIO.Config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: "http://the-internet.herokuapp.com",
+    baseUrl: "https://eacp.energyaustralia.com.au/codingtest/",
     // Default timeout for all waitFor* commands.
     /**
      * NOTE: This has been increased for more stable Appium Native app
@@ -91,6 +91,7 @@ export const config: WebdriverIO.Config = {
     // - wdio.shared.sauce.conf.ts
     // configuration files
     services: [],
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
@@ -110,7 +111,38 @@ export const config: WebdriverIO.Config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ["spec"],
+    reporters: [['allure', {
+        enabled: true,
+        outputDir: 'allure-results',
+    }],
+    'spec'],
+    beforeSuite: function (suite) {
+        //@ts-ignore
+        global.allure = allure;
+               allure.addFeature(suite.fullTitle);
+               allure.addDescription("generating Allure reports " + suite.title,'text');
+           },
+    beforeTest: function (test, context) {
+              
+               allure.addDescription("generating Allure reports" + test.title,'text');
+               allure.addTestId("TC-001" + test.title);
+           },
+    // afterTest: function (
+    //         test,
+    //         context,
+    //         { error, result, duration, passed, retries }
+    //       ) {
+    //         // take a screenshot anytime a test fails and throws an error
+           
+    //         driver.takeScreenshot().then(screenshot => {
+    //             // Add the screenshot to the Allure report
+    //             //@ts-ignore
+    //             allure.addAttachment('Failed', () => {
+    //                 return Buffer.from(screenshot, 'base64');
+    //             }, 'image/png')();
+    //         });            
+    //         //driver.closeApp();
+    //       },
     // Options to be passed to Mocha.
     mochaOpts: {
         ui: "bdd",
@@ -119,17 +151,6 @@ export const config: WebdriverIO.Config = {
          * tests because they can take a bit longer.
          */
         timeout: 3 * 60 * 1000, // 3min
-    },
-    //
-    // =====
-    // Hooks
-    // =====
-    // WebdriverIO provides several hooks you can use to interfere with the test process in order to enhance
-    // it and to build services around it. You can either apply a single function or an array of
-    // methods to it. If one of them returns with a promise, WebdriverIO will wait until that promise got
-    // resolved to continue.
-    //
-    /**
-     * NOTE: No Hooks are used in this project, but feel free to add them if you need them.
-     */
+    }
+   
 };

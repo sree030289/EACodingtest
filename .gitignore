@@ -2,17 +2,14 @@
 #
 .DS_Store
 
-# IntelliJ
+# vscode
 #
-.idea
+.vscode
 
 # node.js
 #
-node_modules/
+node_modules
 npm-debug.log
 
 # custom
-apps/
-*.log
-chromeDriver
-.tmp
+
