@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675508719218' stop='1675508720039'>
+    <name>WebdriverIO and Appium EA Test coding sample suite,</name>
+    <title>WebdriverIO and Appium EA Test coding sample suite,</title>
+    <test-cases>
+        <test-case start='1675508719218' status='broken' stop='1675508720036'>
+            <name>"after each" hook for WebdriverIO and Appium EA Test coding sample suite,</name>
+            <title>"after each" hook for WebdriverIO and Appium EA Test coding sample suite,</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC-001Verify App is displayed ListView with atleast one record in it'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1675508719221' status='passed' stop='1675508719710'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2a0f41fe-bcd6-47fd-9f19-14b410d2a9af-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='68454067-24a3-4637-8f1b-5b3c4b99af6f-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508719718' status='passed' stop='1675508719776'>
+                    <name>GET /session/:sessionId/element/00000000-0000-07a9-ffff-ffff00000008/displayed</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-07a9-ffff-ffff00000008/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='ead0315a-b0b0-41f6-9936-7387ba2ea98f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508719777' status='passed' stop='1675508719903'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d292a312-97a5-45e5-96cc-a2de0f42865a-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='202ba04f-cc3e-4aee-97b0-81967a1a5ade-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508719907' status='passed' stop='1675508719929'>
+                    <name>GET /session/:sessionId/element/00000000-0000-07a9-ffff-ffff00000008/displayed</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-07a9-ffff-ffff00000008/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='53fb5357-f630-4de4-97f1-74db0d2ca459-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508719930' status='passed' stop='1675508719971'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='03f1cfa2-325b-4f40-8f38-ec1661e679e0-attachment.json' type='application/json' size='138'/>
+                        <attachment title='Response' source='7d3cbe30-e999-4bea-b6c6-b2f31f163128-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508719975' status='passed' stop='1675508720019'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='952b36de-9ab9-43ee-8654-9955b8a67c5c-attachment.json' type='application/json' size='138'/>
+                        <attachment title='Response' source='c4628a06-bbea-476b-95fb-d3c37a4ade10-attachment.json' type='application/json' size='148'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508720035' status='broken' stop='1675508720036'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>driver.resetApp is not a function</message>
+                <stack-trace>TypeError: driver.resetApp is not a function
+                    at Context.&lt;anonymous> (/Users/apple/Desktop/appium-boilerplate/tests/specs/app.getFestivals.spec.ts:11:20)</stack-trace>
+            </failure>
+            <description type='text'>generating Allure reportsVerify App is displayed ListView with atleast one record in it</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

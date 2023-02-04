@@ -1,0 +1,418 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1675508636296' stop='1675508642373'>
+    <name>WebdriverIO and Appium EA Test coding sample suite,</name>
+    <title>WebdriverIO and Appium EA Test coding sample suite,</title>
+    <test-cases>
+        <test-case start='1675508636296' status='passed' stop='1675508638836'>
+            <name>Verify App is displayed ListView with atleast one record in it</name>
+            <title>Verify App is displayed ListView with atleast one record in it</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC-001Verify App is displayed ListView with atleast one record in it'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1675508636299' status='passed' stop='1675508637185'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f771580-275e-4def-9db6-d0ca66a193b7-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='d7963891-e8a1-400d-8811-5d004ffd6731-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508637193' status='passed' stop='1675508637219'>
+                    <name>GET /session/:sessionId/element/00000000-0000-079d-ffff-ffff00000008/displayed</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-079d-ffff-ffff00000008/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='b80bcf30-7090-4f80-8d86-bc2cb1502142-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508637220' status='passed' stop='1675508637307'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8caf5e3c-b011-4ac7-a1f7-f269d6a29409-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='28274944-ba0d-40b0-aa0a-4a86084879cf-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508637310' status='passed' stop='1675508637329'>
+                    <name>GET /session/:sessionId/element/00000000-0000-079d-ffff-ffff00000008/displayed</name>
+                    <title>GET /session/:sessionId/element/00000000-0000-079d-ffff-ffff00000008/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='50a59129-de45-4168-8232-da1c9b83eeda-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508637329' status='passed' stop='1675508637578'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='34158b25-d728-4c67-87c2-7dcfd7fed206-attachment.json' type='application/json' size='138'/>
+                        <attachment title='Response' source='7114bf7e-cae3-4ccf-8024-9d76167bc41e-attachment.json' type='application/json' size='1608'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508637593' status='passed' stop='1675508637764'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='60466fa7-91f1-4b6f-adaf-46b61da284f0-attachment.json' type='application/json' size='138'/>
+                        <attachment title='Response' source='ae32c557-c990-41ec-8ea8-e0fe9631585c-attachment.json' type='application/json' size='1608'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508637778' status='passed' stop='1675508638836'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675508637780' status='passed' stop='1675508638595'>
+                            <name>POST /session/:sessionId/appium/app/close</name>
+                            <title>POST /session/:sessionId/appium/app/close</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='82d3ccfb-ac67-4175-b288-4d1b0bb5e555-attachment.png' type='image/png' size='191672'/>
+                            </attachments>
+                            <steps>
+                                <step start='1675508637781' status='passed' stop='1675508638196'>
+                                    <name>GET /session/:sessionId/screenshot</name>
+                                    <title>GET /session/:sessionId/screenshot</title>
+                                    <attachments>
+                                        <attachment title='Screenshot' source='6f517798-3893-4986-a76e-700d8dc3421a-attachment.png' type='image/png' size='191672'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>generating Allure reportsVerify App is displayed ListView with atleast one record in it</description>
+        </test-case>
+        <test-case start='1675508638836' status='failed' stop='1675508640010'>
+            <name>Verify App is loading all 18 Band and Festival Names</name>
+            <title>Verify App is loading all 18 Band and Festival Names</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC-001Verify App is loading all 18 Band and Festival Names'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1675508638837' status='passed' stop='1675508639919'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='c2ff14e2-131e-48f9-b369-31bbebfc3471-attachment.json' type='application/json' size='785'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675508638838' status='passed' stop='1675508639547'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='7e13af7f-b7a0-4082-8b0b-6c8b644b14bc-attachment.json' type='application/json' size='62'/>
+                                <attachment title='Response' source='b0198c8d-3238-43fc-8340-59d813ea827d-attachment.json' type='application/json' size='785'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1675508639550' status='passed' stop='1675508639859'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a9d27711-068e-494e-9810-a6cf86309ad1-attachment.json' type='application/json' size='62'/>
+                                <attachment title='Screenshot' source='259de0eb-4478-40fe-81c2-c429ee982487-attachment.png' type='image/png' size='220655'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675508639929' status='undefined'>
+                    <name>POST /session/:sessionId/appium/app/close</name>
+                    <title>POST /session/:sessionId/appium/app/close</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675508639929' status='passed' stop='1675508640010'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: expected false to be true
+                    at HomeScreen.verifyListViewIsDisplayed (/Users/apple/Desktop/appium-boilerplate/tests/screenobjects/HomeScreen.ts:23:56)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (/Users/apple/Desktop/appium-boilerplate/tests/specs/app.getFestivals.spec.ts:26:5)</stack-trace>
+            </failure>
+            <description type='text'>generating Allure reportsVerify App is loading all 18 Band and Festival Names</description>
+        </test-case>
+        <test-case start='1675508640011' status='failed' stop='1675508640842'>
+            <name>Verfiy if the list view has results and it is scrollable</name>
+            <title>Verfiy if the list view has results and it is scrollable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC-001Verfiy if the list view has results and it is scrollable'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1675508640012' status='passed' stop='1675508640362'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='2a0fe1a4-0681-40fc-9b84-bad634533cc3-attachment.json' type='application/json' size='785'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675508640013' status='passed' stop='1675508640304'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='d0492702-462d-4dda-9b76-d0fba44cdfde-attachment.json' type='application/json' size='62'/>
+                                <attachment title='Screenshot' source='bdeb89c9-4f0e-47e1-baa2-531f55412956-attachment.png' type='image/png' size='220655'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675508640365' status='passed' stop='1675508640674'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6e040a3e-2e30-4074-b4b6-ff9a0325917f-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Screenshot' source='81d14b1d-7f2d-4dd2-9158-9aa5cf7bea9b-attachment.png' type='image/png' size='220655'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508640725' status='undefined'>
+                    <name>POST /session/:sessionId/appium/app/close</name>
+                    <title>POST /session/:sessionId/appium/app/close</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675508640725' status='passed' stop='1675508640842'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='4c579831-a0d1-4202-be1d-70cfd40c7d6b-attachment.json' type='application/json' size='785'/>
+            </attachments>
+            <failure>
+                <message>expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: expected false to be true
+                    at HomeScreen.verifyListViewHasRecords (/Users/apple/Desktop/appium-boilerplate/tests/screenobjects/HomeScreen.ts:28:56)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (/Users/apple/Desktop/appium-boilerplate/tests/specs/app.getFestivals.spec.ts:82:9)</stack-trace>
+            </failure>
+            <description type='text'>generating Allure reportsVerfiy if the list view has results and it is scrollable</description>
+        </test-case>
+        <test-case start='1675508640842' status='failed' stop='1675508641621'>
+            <name>Verfiy all Festival names displayed has corresponding band name</name>
+            <title>Verfiy all Festival names displayed has corresponding band name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC-001Verfiy all Festival names displayed has corresponding band name'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1675508640844' status='passed' stop='1675508641200'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='de5df874-bb67-4d8c-92d4-5c503b7eca61-attachment.json' type='application/json' size='785'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675508640844' status='passed' stop='1675508641148'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='f12f387f-d9f7-47c7-ba90-778ae64163bf-attachment.json' type='application/json' size='62'/>
+                                <attachment title='Screenshot' source='6d45f82b-af15-4e36-966b-ea7a46d4d671-attachment.png' type='image/png' size='220655'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675508641202' status='passed' stop='1675508641521'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f1af1fb3-cfc4-4f7a-8c00-ed63e5a13e81-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Screenshot' source='00b04e3e-58d9-4081-805f-fb0d1d5b88ea-attachment.png' type='image/png' size='220655'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508641570' status='undefined'>
+                    <name>POST /session/:sessionId/appium/app/close</name>
+                    <title>POST /session/:sessionId/appium/app/close</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675508641570' status='passed' stop='1675508641621'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='9ef55fdc-d822-45a7-84bf-2e4276095837-attachment.json' type='application/json' size='785'/>
+            </attachments>
+            <failure>
+                <message>expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: expected false to be true
+                    at HomeScreen.verifyListViewIsDisplayed (/Users/apple/Desktop/appium-boilerplate/tests/screenobjects/HomeScreen.ts:23:56)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (/Users/apple/Desktop/appium-boilerplate/tests/specs/app.getFestivals.spec.ts:99:5)</stack-trace>
+            </failure>
+            <description type='text'>generating Allure reportsVerfiy all Festival names displayed has corresponding band name</description>
+        </test-case>
+        <test-case start='1675508641621' status='failed' stop='1675508642373'>
+            <name>Verfiy Error screens are captured in case of API returning 429, 400 etc..error codes</name>
+            <title>Verfiy Error screens are captured in case of API returning 429, 400 etc..error codes</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='TC-001Verfiy Error screens are captured in case of API returning 429, 400 etc..error codes'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+                <parameter kind='argument' name='device' value='Pixel 5 API 30 11.0-11'/>
+            </parameters>
+            <steps>
+                <step start='1675508641621' status='passed' stop='1675508641954'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Response' source='ac90b27a-5c22-450c-8d32-ad34d99dde7b-attachment.json' type='application/json' size='785'/>
+                    </attachments>
+                    <steps>
+                        <step start='1675508641622' status='passed' stop='1675508641908'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a7478d6a-a898-474b-81c7-c723443cf944-attachment.json' type='application/json' size='62'/>
+                                <attachment title='Screenshot' source='ee9e34ca-f793-4bd6-9fb0-5fe4fa437142-attachment.png' type='image/png' size='220655'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1675508641957' status='passed' stop='1675508642272'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6f0aaea8-05b3-4ef6-a4c0-d98c839f6399-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Screenshot' source='793ed27b-9090-419c-8c84-759f945a3126-attachment.png' type='image/png' size='220655'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1675508642321' status='undefined'>
+                    <name>POST /session/:sessionId/appium/app/close</name>
+                    <title>POST /session/:sessionId/appium/app/close</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1675508642321' status='passed' stop='1675508642373'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='36a576cb-c882-4440-ab35-9def2d58d787-attachment.json' type='application/json' size='785'/>
+            </attachments>
+            <failure>
+                <message>expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: expected false to be true
+                    at HomeScreen.verifyListViewHasRecords (/Users/apple/Desktop/appium-boilerplate/tests/screenobjects/HomeScreen.ts:28:56)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (/Users/apple/Desktop/appium-boilerplate/tests/specs/app.getFestivals.spec.ts:148:7)</stack-trace>
+            </failure>
+            <description type='text'>generating Allure reportsVerfiy Error screens are captured in case of API returning 429, 400 etc..error codes</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
